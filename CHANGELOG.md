@@ -1,4 +1,8 @@
-### 1.0.19
+### 1.0.0+20
+
+- Update CHANGELOG.md
+
+### 1.0.0+19
 
 - Upgraded `pubspec.yaml` SDK to `3.0.0`.
 - Upgraded packages and adjusted some codes to ensure compatibility with the latest SDK.
