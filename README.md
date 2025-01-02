@@ -2,9 +2,6 @@
 
 This is upgraded version from [flutter_no_internet_widget](https://pub.dev/packages/flutter_no_internet_widget)
 
-[![flutter_no_internet_widget](https://github.com/rizkyghofur/flutter_no_internet_widget/actions/workflows/flutter_no_internet_widget_actions.yml/badge.svg)](https://github.com/rizkyghofur/flutter_no_internet_widget/actions/workflows/flutter_no_internet_widget_actions.yml)
-[![codecov](https://codecov.io/gh/rizkyghofur/flutter_no_internet_widget/branch/master/graph/badge.svg?token=qvQsCoKrIz)](https://codecov.io/gh/rizkyghofur/flutter_no_internet_widget)
-
 ## Overview
 
 A new Flutter widget shows online or offline screens without extra code or dependencies.
@@ -132,20 +129,20 @@ Run this command:
 With Dart:
 
 ```dart
- dart pub add flutter_no_internet_widget
+ dart pub add flutter_no_internet_widget_v2
 ```
 
 With Flutter:
 
 ```dart
- flutter pub add flutter_no_internet_widget
+ flutter pub add flutter_no_internet_widget_v2
 ```
 
 This will add a line like this to your package's pubspec.yaml (and run an implicit dart pub get):
 
 ```dart
 dependencies:
-  flutter_no_internet_widget: [use_latest]
+  flutter_no_internet_widget_v2: [use_latest]
 ```
 
 Alternatively, your editor might support dart pub get or flutter pub get. Check the docs for your editor to learn more.
@@ -154,5 +151,5 @@ Import it
 Now in your Dart code, you can use:
 
 ```dart
-import 'package:flutter_no_internet_widget/flutter_no_internet_widget.dart';
+import 'package:flutter_no_internet_widget_v2/flutter_no_internet_widget.dart';
 ```
